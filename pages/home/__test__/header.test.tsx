@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react'
 import '@testing-library/jest-dom'
-import Header from '@/pages/components/Header'
+import Header from '../components/Header'
 
 describe('Header', () => {
     it('renders a header', () => {

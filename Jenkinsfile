@@ -8,6 +8,7 @@ pipeline {
             steps {
                 echo 'Building..'
                 sh '''
+                    rm -rf .next/
                     rm -rf node_modules/
                     rm -rf package-lock.json
                     npm install --legacy-peer-deps
