@@ -1,11 +1,10 @@
-import Header from "./home/components/Header";
-
+import { ContainerWrapper } from "@/components/Container/Container";
+import MainBanner from "./home/components/MainBanner";
 
 export default function Home() {
   return (
-    <>
-      <Header />
-      <main>hello</main>
-    </>
+    <ContainerWrapper>
+      <MainBanner />
+    </ContainerWrapper>
   );
 }
